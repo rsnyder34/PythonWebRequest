@@ -3,7 +3,7 @@ import requests
 import sys
 from time import sleep
 
-url = 
+url = sys.argv[1]
 
 payload = {
     "action": "polls",
